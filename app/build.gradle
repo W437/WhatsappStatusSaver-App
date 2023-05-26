@@ -1,0 +1,57 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 32
+
+    defaultConfig {
+        applicationId "com.kessi.statusdownloader"
+        minSdkVersion 21
+        targetSdkVersion 32
+        versionCode 14
+        versionName "3.9.1"
+        multiDexEnabled true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+repositories {
+    maven {
+        url 'https://android-sdk.is.com/'
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.5.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    implementation 'com.github.bumptech.glide:glide:4.14.2'
+    implementation 'com.google.android.gms:play-services-ads:22.0.0'
+    implementation 'com.google.android.material:material:1.6.1'
+
+    implementation 'com.synnapps:carouselview:0.1.5'
+    implementation 'com.intuit.sdp:sdp-android:1.1.0'
+    implementation "androidx.multidex:multidex:2.0.1"
+    implementation 'com.airbnb.android:lottie:5.2.0'
+    implementation files('libs/commons-io-2.4.jar')
+
+    //ironSource
+    implementation 'com.ironsource.sdk:mediationsdk:7.2.6'
+
+    //ironSource Add Facebook Network
+    implementation 'com.ironsource.adapters:facebookadapter:4.3.38'
+    implementation 'com.facebook.android:audience-network-sdk:6.13.7'
+}

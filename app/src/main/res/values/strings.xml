@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name"> Status saver for WhatsApp and Whatsapp business</string>
+
+    <string name="wapp_permission">Click on this button and Allow permission to access your status</string>
+    <string name="allow_storage_access">Allow storage access</string>
+    <string name="install_wapp">Please Install WhatsApp For Download Status!!!!!</string>
+    <string name="install_wbapp">Please Install WhatsApp Business For Download Status!!!!!</string>
+    <string name="save_error">Couldn\'t Saved Some Files</string>
+    <string name="save_success">All Status Are Saved Successfully</string>
+    <string name="status_not_available">There\'s nothing here.</string>
+
+    <!--admob ids-->
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_banner_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_interstitial">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="reward_id">ca-app-pub-3940256099942544/5224354917</string>
+
+    <!--fb ad ids-->
+    <!--<string name="fbad_banner_id">244015483614416_244016593614305</string>&lt;!&ndash;IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID&ndash;&gt;
+    <string name="fbad_interstitial_id">244015483614416_244019870280644</string>&lt;!&ndash;VID_HD_9_16_39S_APP_INSTALL#YOUR_PLACEMENT_ID&ndash;&gt;-->
+
+    <!--ironSource app ad ids-->
+    <string name="iron_ad_id" translatable="false">10b995605</string>
+
+</resources>
