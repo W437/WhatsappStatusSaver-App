@@ -35,7 +35,7 @@
                 android:id="@+id/topTV"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Saved Status"
+                android:text="@string/saved_status"
                 android:textColor="#fff"
                 android:textSize="18sp"
                 android:layout_centerInParent="true"/>

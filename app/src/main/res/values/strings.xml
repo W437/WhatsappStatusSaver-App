@@ -1,13 +1,18 @@
 <resources>
     <string name="app_name"> Status saver for WhatsApp and Whatsapp business</string>
 
+    <!--start_translate-->
+    <string name="recent_status_text">Recent Status</string>
+    <string name="saved_status">Saved Status</string>
+    <string name="how_to_use">How to use ?</string>
     <string name="wapp_permission">Click on this button and Allow permission to access your status</string>
     <string name="allow_storage_access">Allow storage access</string>
     <string name="install_wapp">Please Install WhatsApp For Download Status!!!!!</string>
     <string name="install_wbapp">Please Install WhatsApp Business For Download Status!!!!!</string>
-    <string name="save_error">Couldn\'t Saved Some Files</string>
+    <string name="save_error">Could Not Saved Some Files</string>
     <string name="save_success">All Status Are Saved Successfully</string>
-    <string name="status_not_available">There\'s nothing here.</string>
+    <string name="status_not_available">There is nothing here.</string>
+    <!--end_translate-->
 
     <!--admob ids-->
     <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
